@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/list/list",
+    "pages/my/my"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Do",
+    "navigationBarTextStyle":"black"
+  },
+    "tabBar": {
+      "color": "#555",
+      "selectedColor": "#405f88",
+      "list": [
+        {
+          "pagePath": "pages/list/list",
+          "text": "清单",
+          "iconPath": "/images/tab/yuedu.png",
+          "selectedIconPath": "images/tab/yuedu_hl.png"
+        },
+        {
+          "pagePath": "pages/my/my",
+          "text": "我的",
+          "iconPath": "/images/tab/dianying.png",
+          "selectedIconPath": "images/tab/dianying_hl.png"
+        }
+      ]
+    }
+}
