@@ -1,0 +1,11 @@
+<!--pages/list/add/add.wxml-->
+<view class='container'>
+  <view class='setting'>
+    <text>基础设置</text>
+  </view>
+  <view class='hr'></view>
+  <view class='add-container'>
+    <input placeholder="想做的事..." auto-focus type="text" placeholder-class='add'/>
+  </view>
+  <view class='hr'></view>
+</view>

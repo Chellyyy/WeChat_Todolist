@@ -13,6 +13,7 @@
 }
 .progress{
   margin: 20rpx 40rpx;
+  height: 100rpx;
 }
 .progress-all{
   width: 600rpx;
@@ -20,6 +21,8 @@
   height: 8px;
   margin: 20rpx 5rpx;
   border-radius:4px;
+  position: absolute;
+  top: 72rpx;
 }
 .progress-finish{
   width: 300rpx;
@@ -30,11 +33,26 @@
   position: absolute;
   top:72rpx;
 }
+.list-img{
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 20rpx;
+  vertical-align: middle;
+}
+.list-text{
+  vertical-align: middle;
+}
+.test{
+  border-radius: 5px;
+}
 .progress-text{
-  font-size: 24rpx;
+  font-size: 30rpx;
   color: #dbdbdb;
   vertical-align: middle;
   margin: 10rpx 10rpx;
+  position: absolute;
+  top: 72rpx;
+  left: 650rpx;
 }
 .hr{
   width: 100%;
@@ -43,9 +61,10 @@
   margin: 20rpx 0;
 }
 .check-list{
-  color: #666;
+  color: #333;
   font-size: 28rpx;
-  margin: 10rpx 40rpx;
+  margin: 30rpx 40rpx;
+  vertical-align: middle;
 }
 .add-list{
   font-size: 30rpx;
@@ -55,17 +74,19 @@
 }
 .finish-info{
   background-color: #f8f9fe;
+  font-size: 24rpx;
   width: 100%;
-  height: 50rpx;
-  display: block;
-  padding: 5rpx 40rpx;
+  display: inline-block;
+  padding: 20rpx 40rpx;
   margin-top: 40rpx;
-  vertical-align: middle;
 }
 .finish-list{
   font-size: 28rpx;
   margin: 30rpx 40rpx;
   text-decoration: line-through;
   color: #dbdbdb;
-  
+}
+.down{
+  color: #dbdbdb;
+  vertical-align: middle;
 }

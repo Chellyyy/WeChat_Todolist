@@ -1,0 +1,11 @@
+/* pages/list/add/add.wxss */
+.add-container{
+  margin-left: 40rpx;
+}
+.add{
+  color: #dbdbdb;
+  font-size: 32rpx;
+}
+.setting text{
+  padding-left: 40rpx;
+}

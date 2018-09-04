@@ -3,20 +3,38 @@
   <view class='progress'>
     <text class='date'>2018年07月27日</text>
     <view class='flex-row'>
+
       <view class='progress-all'></view>
       <view class='progress-finish'></view>
       <text class='progress-text'>50%</text>
     </view>
   </view>
   <view class='hr'></view>
-  <view class='check-list'>
-    <text>单词</text>
+  <view class='check'>
+    <view class='check-list'>
+      <image src='/images/tab/list.png' class='list-img'></image>
+      <text class='list-text'>单词</text>
+    </view>
+    <view class='check-list'>
+      <image src='/images/tab/list.png' class='list-img'></image>
+      <text class='list-text'>单词</text>
+    </view>
+    <view class='check-list'>
+     <image src='/images/tab/list.png' class='list-img'></image>
+     <text class='list-text'>单词</text>
+    </view>
+    <text class='add-list' bindtap="addList">添加新事项...</text>
   </view>
-  <text class='add-list'>添加新事项...</text>
+
   <view class='finish'>
     <text class='finish-info'>已完成</text>
     <view class='finish-list'>
-      <text>看书</text>
+      <image src='/images/tab/list_down.png' class='list-img'></image>
+      <text class='down'>看书</text>
+    </view>
+    <view class='finish-list'>
+      <image src='/images/tab/list_down.png' class='list-img'></image>
+      <text class='down'>看书</text>
     </view>
   </view>
 </view>
